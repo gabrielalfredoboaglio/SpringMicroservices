@@ -20,12 +20,6 @@ Este es un proyecto de prueba que demuestra la implementación de microservicios
 
 - Spring Boot
 - Spring Cloud (Config Server, Eureka)
-- ...
 
-## Configuración y Ejecución
 
-1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/gabrielalfredoboaglio/SpringMicroservices.git
-   ```
