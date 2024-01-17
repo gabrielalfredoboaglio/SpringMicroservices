@@ -1,25 +1,22 @@
-# Proyecto de Microservicios con Spring Boot
+# Microservices Project with Spring Boot
 
 ![Microservices](/microservices.png)
 
-Este es un proyecto de prueba que demuestra la implementación de microservicios utilizando Spring Boot. El proyecto incluye varios servicios como Config Server, Eureka Server, Gateway, Curso Service y Student Service.
+This is a test project showcasing the implementation of microservices using Spring Boot. The project includes various services such as Config Server, Eureka Server, Gateway, Curso Service, and Student Service.
 
-## Estructura del Proyecto
+Project Structure
+Config Server: This microservice acts as a centralized configuration server for other microservices.
 
-- **Config Server:** Este microservicio actúa como servidor de configuración centralizado para otros microservicios.
+Eureka Server: Service registration and discovery for managing the microservices architecture.
 
-- **Eureka Server:** Registro y descubrimiento de servicios para la gestión de la arquitectura de microservicios.
+Gateway: Gateway service that routes requests to the corresponding microservices.
 
-- **Gateway:** Servicio de puerta de enlace que enruta las solicitudes a los microservicios correspondientes.
+Curso Service: Microservice to handle information about courses.
 
-- **Curso Service:** Microservicio para gestionar información sobre cursos.
+Student Service: Microservice that manages data related to students.
 
-- **Student Service:** Microservicio que maneja datos relacionados con estudiantes.
-
-## Tecnologías Utilizadas
-
-- Spring Boot
-- Spring Cloud (Config Server, Eureka)
-
+Technologies Used
+Spring Boot
+Spring Cloud (Config Server, Eureka)
 
 
